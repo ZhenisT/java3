@@ -18,7 +18,6 @@ public class Generic {
 
         convertToList(arr);
 
-
         /*
         3. Большая задача:
 a. Есть классы Fruit -> Apple, Orange;(больше фруктов не надо)
@@ -45,18 +44,14 @@ g. Не забываем про метод добавления фрукта в 
 
     }
 
-
-
     protected static void swap(Object[] array, int Index1, int Index2) {
         Object tmp = array[Index1];
         array[Index1] = array[Index2];
         array[Index2] = tmp;
     }
 
-
     protected static <T> void convertToList(T[] array) {
         ArrayList<T> alt = new ArrayList<>(Arrays.asList(array));
     }
-
 
 }
